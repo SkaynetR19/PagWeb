@@ -1,5 +1,67 @@
 body{
-    background-color: red;
-    font-weight: bold;
-    color: blue;
+    padding-top: 0%;
+    margin: 0%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+
+}
+h2{
+    color: #ffffff;
+    font-size: 12px;
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.info{
+    padding-left: 15px;
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+.info img{
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.datos{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.redes{
+    padding-right: 15px;
+    display: flex;
+	flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+.redes img{
+    border
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+}
+.contacto{
+    font-size: 13px;
+    display: flex;
+	flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+.contacto a{
+    color: #eae1e1;
+    text-decoration: none;
 }
