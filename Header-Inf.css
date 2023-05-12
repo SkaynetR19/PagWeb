@@ -1,0 +1,42 @@
+nav{
+    max-width: 100%;
+    margin: auto;
+    background-color: #2d4177;
+    font-size: 12px;
+}
+.menu-horizontal{
+    height: 45px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15x 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: black;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: white;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: rgba(179, 176, 176, 0.5);
+}
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}

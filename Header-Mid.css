@@ -1,0 +1,41 @@
+.mid{
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    height: 145px;
+}
+.fondo img{
+    position: absolute;
+    width: 100%;
+    object-position: 0px -650px;
+    opacity: 50%;
+}
+.logo{
+    width: 70%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    gap: 20px;
+}
+.logo img{
+    width: 120px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.texto h1{
+    margin-bottom: 10px;
+}
+.texto h2{
+    margin-top: 10px;
+}
+.texto h1, .texto h2{
+    line-height: 0.5;
+}
