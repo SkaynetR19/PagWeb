@@ -19,7 +19,8 @@
     align-items: center;
     justify-content: space-between;
 }
-i{
+.flechasCarrusel i{
+    color: white;
     margin: 20px;
 }
 a{
@@ -34,10 +35,15 @@ a{
     justify-content: center;
     gap: 5px;
     bottom: 0;
-    left: 47.7%;
+    left: 50%;
+    align-items: center;
 }
 #contePuntos > a{
     font-size: 1.5em;
+    text-decoration: none;
+}
+#contePuntos > a:hover{
+    color: green;
 }
 
 #conteItemCarrusel img{

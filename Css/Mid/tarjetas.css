@@ -1,0 +1,21 @@
+#tarjetasInfSlider{
+    margin: 40px 230px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.caja{
+    background-color: rgba(49,107,153,255);
+    width: 230px;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+}
